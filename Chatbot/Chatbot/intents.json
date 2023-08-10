@@ -1,0 +1,316 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Awe",
+        "Dumelang",
+        "Show",
+        "Wassup",
+        "Howzit",
+        "Kunjani",
+        "Good day",
+        "Hey",
+        "Hello",
+        "Moer",
+        "Good day",
+        "Goeie Middag"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hello",
+        "How may I help you",
+        "Good day, I hope you are doing well",
+        "How may I help you"
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your Name",
+        "What may I call you",
+        "Who are you",
+        "Can you tell me who you are?"
+      ],
+      "responses": [
+        "I am unable to answer that question",
+        "I am a simple Demo chatbot AI, I do not have a name"
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "feelings",
+      "patterns": [
+        "Do you have feelings",
+        "Can you feel",
+        "Do you have any emotions"
+      ],
+      "responses": [
+        "As an AI I do not have any feelings or emtions",
+        "I do not have any emotions I am just a simple code",
+        "I am a program designed to process and generate text based on patterns in data"
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you?",
+        "what's your age?",
+        "age?"
+      ],
+      "responses": [
+        "I am just a learning tool I do not have any age",
+        "Age is not applicable to me as an AI.",
+        "I don't age, as I am not a organic life form."
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "principles of ai",
+      "patterns": [
+        "What are the 4 principles of AI",
+        "Tell me about the principles of AI.",
+        "Explain the AI principles."
+      ],
+      "responses": [
+        "The 4 principles of AI are: 1. Purpose - AI systems should have well-defined goals. 2. Reasoning - They should use appropriate methods to achieve those goals. 3. Adaptability - They should be capable of modifying their approach based on new information. 4. Ethical behavior - AI systems should operate within ethical boundaries set by humans."
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "thank you",
+      "patterns": [
+        "Thank you",
+        "Thanks"
+      ],
+      "responses": [
+        "You're welcome! feel free to ask if you have more question",
+        "You're welcome! Let me know if there's anything else I can help you with."
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?",
+        "Tell me the weather forecast."
+      ],
+      "responses": [
+        "I'm sorry, but as an AI language model, I don't have access to real-time information",
+        "I'm not coded to access real-time weather forecast."
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "api",
+      "patterns": [ "What is an API?", "Can you explain what an API is.", "What does API mean?" ],
+      "responses": [
+        "API stands for Application Programming Interface. ",
+        "It is a set of rules that allows different software applications to communicate and interact with each other."
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "programming languages",
+      "patterns": [ "What are popular programming languages?", "Tell me about programming languages.", "Which programming languages should I learn?" ],
+      "responses": [
+        "Some popular programming languages include Python, Java, C#, C++, and Javascript.",
+        "The choice of language depends on the type of projects you want to work on and your personal preferences. This may include web development or app development"
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "web frameworks",
+      "patterns": [ "What are some popular web frameworks?", "Tell me about web frameworks.", "Which web frameworks are commonly used?" ],
+      "responses": [
+        "Some popular web frameworks are Django (Python), Ruby on Rails (Ruby), Express.js (JavaScript), and Spring Boot (Java)"
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "database management",
+      "patterns": [ "What is a database management system?", "Explain database management.", "How do database systems work?" ],
+      "responses": [
+        "A Database Management System (DBMS) is software that allows users to store, organize, and manage data in databases. It provides functionalities like data retrieval, storage, update, and data security."
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "version control",
+      "patterns": [ "What is version control?", "Explain version control systems.", "Why is version control important in software development?" ],
+      "responses": [
+        "Version control is a system that helps developers track changes in their code over time. It allows multiple developers to collaborate efficiently, manage different versions of the code, and revert to previous states if needed."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "software testing",
+      "patterns": [ "What is software testing?", "Explain the importance of software testing.", "How do you test software?" ],
+      "responses": [
+        "Software testing is a process of evaluating and verifying that a software application or system meets its requirements and works as expected. It helps identify bugs and ensures the software's quality and reliability."
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "best practices",
+      "patterns": [ "What are some best practices in software development?", "Tell me about software development best practices.", "How can I become a better software developer?" ],
+      "responses": [
+        "Some software development best practices include writing clean and modular code, using version control, writing unit tests, documenting code, and following coding standards. Continuous learning and practice are key to becoming a better software developer."
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "best soft developers",
+      "patterns": [ "Who are the best software developers in the modern world?", "Tell me about top software developers.", "Who are the experts in software development?" ],
+      "responses": [
+        "Some of the best software developers in the modern world include Linus Torvalds (creator of Linux), Guido van Rossum (creator of Python)",
+        "James Gosling (one of the creators of Java), and Yukihiro Matsumoto (creator of Ruby).John Romero (Developed Assembly game by himself)",
+        "Some of the best software developers in the modern world include Tim Berners-Lee (HTML, URL, and HTTP)., Larry Page (Google Co-founder)"
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "father of computer",
+      "patterns": [ "Who is the father of the modern computer?", "Tell me about the origin of computers.", "Who is the pioneer of computing technology?" ],
+      "responses": [
+        "The father of the modern computer is Alan Turing. He was a British mathematician, and computer scientist. Turing made fundamental contributions to the development of computer science and artificial intelligence. He played a crucial role in breaking the German Enigma code during World War II and laid the theoretical groundwork for modern computers."
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Get lost",
+        "Till next time",
+        "Later",
+        "Goodbye",
+        "See you next time"
+      ],
+      "responses": [
+        "Goodbye! If you have more software development questions, feel free to ask. Happy coding!",
+        "Bye! Have a great day and keep coding",
+        "Good bye",
+        "Later",
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "See you again"
+      ],
+      "context": [
+        ""
+      ]
+
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "Unasnwered",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand",
+        "Type again I do not understan"
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "inspire",
+      "patterns": [
+        "who inspires you",
+        "who is your inspiration",
+        "who motivates you"
+      ],
+      "responses": [
+        "I have no emotions I am simply hard code nobody inspires me just simple learning bot"
+      ]
+    },
+
+    {
+      "tag": "good",
+      "patterns": [
+        "i am good",
+        "I'm good",
+        "i am fine",
+        " i'm fine",
+        "good"
+      ],
+      "responses": [
+        "Good to know!"
+      ]
+    }
+  ]
+}
